@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dick Spinner</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="propeller.js"></script>
+  <style>
+
+  .wrap {
+    position: relative;
+  }
+    
+    #example1 {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>Бывает же...</h1>
+        <p>Главное кликай осторожно и будь поласковее</p>
+        <h2>Руководство:</h2>
+        <p>Хватай, крути, кликни чтобы остановить</p>
+        <h3>Когда применять:</h3>
+        <ul>
+            <li>Когда не знаешь кого поцеловать</li>
+            <li>Когда не знаешь кого покрутить</li>
+            <li>Когда не знаешь кого выбрать</li>
+            <li>Когда не знаешь на что сесть</li>
+            <li>Когда не на чем ехать</li>
+        </ul>
+        <img class="turbine" width="400px" height="auto" id="example1" src="freeInternet.png">  
+    </div>
+  <script>
+      $('#example1').propeller({inertia: 1, speed: 1});
+  </script>
+</body>
+</html>
